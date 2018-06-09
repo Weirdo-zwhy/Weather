@@ -8,15 +8,10 @@ import java.util.List;
 
 public class TimeWeather {
     private String status;
-
     private String count;
-
     private String info;
-
     private String infocode;
-
     private List<Forecasts> forecasts ;
-
     public void setStatus(String status){
         this.status = status;
     }

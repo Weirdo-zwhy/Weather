@@ -8,15 +8,10 @@ import java.util.List;
 
 public class Weather {
     private String status;
-
     private String count;
-
     private String info;
-
     private String infocode;
-
     private List<Lives> lives ;
-
     public void setStatus(String status){
         this.status = status;
     }

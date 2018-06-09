@@ -24,7 +24,7 @@ public class HttpClient {
     public static <T> void query(String adcode, String type, final Class<T> tClass
             , final IHttpCallback callback){
         //http://lbs.amap.com/api/webservice/guide/api/weatherinfo
-        String parameters = "key=*******你的web服务API类型KEY********"
+        String parameters = "key=85944c5458f07bab5a0862f2cf2bdf6a"
                 + "&city=" + adcode
                 + "&extensions=" + type
                 + "&output=JSON";
