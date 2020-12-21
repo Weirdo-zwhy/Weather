@@ -14,14 +14,15 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:paddingLeft="@dimen/activity_horizontal_margin">
+
         <TextView
-            android:layout_width="0dp"
+            android:id="@+id/main_header_label"
+            android:layout_width="270dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:id="@+id/main_header_label"
-            android:textSize="@dimen/font_big_size_18sp"
+            android:text="广州市 天河区"
             android:textColor="@color/colorWhite"
-            android:text="广州市 天河区"/>
+            android:textSize="@dimen/font_big_size_18sp" />
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -29,6 +30,22 @@
             android:background="#00000000"
             android:textColor="@color/colorWhite"
             android:id="@+id/change_btn"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关注"
+            android:background="#00000000"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/attention_btn"/>
+        <ImageButton
+            android:layout_width="50dp"
+            android:src="@drawable/refresh"
+            android:scaleType="fitXY"
+            android:layout_height="match_parent"
+            android:text="切换"
+            android:background="#00000000"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/refresh_btn"/>
     </LinearLayout>
     <ScrollView
         android:id="@+id/main_scrollview"
